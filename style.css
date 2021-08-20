@@ -1,0 +1,153 @@
+                                                                                                                                                                                                                                                body{
+    background-color: black;
+    background-image: url("https://www.papeiseparede.com.br/2033-thickbox_default/foto-mural-floresta-negra.jpg");
+    background-size: 1250px 900px;
+}
+
+.titulodojogo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    color: silver;
+    background-color: black;
+    font-size: 35px;
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    font-family: fantasy;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gold;
+    border-radius: 30px;
+
+}
+
+.escolhadepersonagem{
+    color: silver;
+    background-color: black;
+    font-size: 15px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: none;
+    font-family: fantasy;
+    font-weight: bold;
+    border: 3px solid gold; 
+    border-radius: 30px;
+    
+}
+
+.iniciarjogo{
+    width: 35%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+a{
+    text-align: center;
+    width: 200px;
+    color: silver;
+    background-color: black;
+	border: 3px solid gold;
+    border-width: 5%;
+	border-radius: 1px;
+	font-size: 20px;
+    padding: 3px;
+	font-family: fantasy;
+    font-weight: bold; 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: none;
+    margin-bottom: 60px;
+
+}
+
+a:hover{
+    color: indigo;
+}
+
+.texto{
+    color: silver;
+    background-color: black;
+    border: 3px solid gold;
+    border-width: 5%;
+	border-radius: 15px;
+	font-size: 20px;
+    padding: 3px;
+	font-family: fantasy;
+    font-weight: bold; 
+    margin-left: 9%;
+    margin-right: 5%;
+    margin-top: 1%;
+    text-align: center;
+    width: 1000px;
+
+
+}
+
+.final{
+    color: silver;
+    background-color: black;
+    border: 3px solid gold;
+    border-width: 5%;
+	border-radius: 15px;
+	font-size: 35px;
+    padding: 3px;
+	font-family: fantasy;
+    font-weight: bold; 
+    margin-left: 9%;
+    margin-right: 5%;
+    margin-top: 1%;
+    text-align: center;
+    width: 1000px;
+
+}
+
+.reinicio{
+    color: silver;
+    background-color: black;
+    border: 3px solid gold;
+    border-width: 5%;
+	border-radius: 15px;
+	font-size: 35px;
+    padding: 3px;
+	font-family: fantasy;
+    font-weight: bold; 
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top: 1%;
+    text-align: center;
+    width: 500px;
+}
+
+.reinicio:hover{
+    color: indigo;
+}
+
+@media screen and (max-width: 1500px){
+    
+    .titulo{
+        font-size: 35px;     
+        text-align: center;
+        
+    }
+    .escolhadepersonagem{
+        font-size: 21px;
+    }
+
+    .iniciarjogo{
+        flex-direction: row;
+        margin-top: 10%;
+    }
+}    
